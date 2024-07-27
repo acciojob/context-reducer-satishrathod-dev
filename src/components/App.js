@@ -43,7 +43,7 @@ const App = () => {
       />
       <button onClick={handled}>Add</button>
       <button onClick={clearList} id="clear-list">
-        Clear List
+        Clear List!
       </button>
       <ul>
         {items.map((item, index) => (
