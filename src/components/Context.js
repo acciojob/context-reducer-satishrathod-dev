@@ -1,6 +1,7 @@
 import React, { createContext, useState } from "react";
 
 export const AppContext = createContext();
+// we will sove this using class based component
 
 export const AppProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
